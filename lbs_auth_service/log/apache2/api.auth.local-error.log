@@ -1,0 +1,114 @@
+[Mon Mar 20 09:55:46.773579 2023] [ssl:warn] [pid 30] AH01906: api.auth.local:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 09:55:47.263181 2023] [ssl:warn] [pid 30] AH01906: api.auth.local:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 09:56:04.616652 2023] [ssl:warn] [pid 29] AH01906: api.auth.local:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 09:56:04.708255 2023] [ssl:warn] [pid 29] AH01906: api.auth.local:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 10:14:24.892490 2023] [ssl:warn] [pid 13] AH01906: api.auth.local:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 10:14:25.202070 2023] [ssl:warn] [pid 13] AH01906: api.auth.local:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 10:20:02.618625 2023] [ssl:warn] [pid 29] AH01906: api.auth.local:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 10:20:02.675894 2023] [ssl:warn] [pid 29] AH01906: api.auth.local:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 10:23:18.006817 2023] [ssl:warn] [pid 13] AH01906: api.auth.local:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 10:23:18.136175 2023] [ssl:warn] [pid 13] AH01906: api.auth.local:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 10:27:40.193321 2023] [ssl:warn] [pid 29] AH01906: api.auth.local:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 10:27:40.256749 2023] [ssl:warn] [pid 29] AH01906: api.auth.local:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 10:30:15.200507 2023] [ssl:warn] [pid 30] AH01906: api.auth.local:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 10:30:15.257237 2023] [ssl:warn] [pid 30] AH01906: api.auth.local:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 10:31:22.465547 2023] [ssl:warn] [pid 29] AH01906: api.auth.local:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 10:31:22.517005 2023] [ssl:warn] [pid 29] AH01906: api.auth.local:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Mar 21 14:17:00.701471 2023] [ssl:warn] [pid 14] AH01906: api.auth.local:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Mar 21 14:17:01.500003 2023] [ssl:warn] [pid 14] AH01906: api.auth.local:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Mar 21 14:36:41.825768 2023] [php:notice] [pid 27] [client 172.18.0.1:58002] PHP Warning:  require_once(/var/www/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/public/index.php on line 9
+[Tue Mar 21 14:36:41.829703 2023] [php:notice] [pid 27] [client 172.18.0.1:58002] PHP Stack trace:
+[Tue Mar 21 14:36:41.830849 2023] [php:notice] [pid 27] [client 172.18.0.1:58002] PHP   1. {main}() /var/www/public/index.php:0
+[Tue Mar 21 14:36:41.853935 2023] [php:notice] [pid 27] [client 172.18.0.1:58002] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/public/index.php:9\nStack trace:\n#0 {main}\n  thrown in /var/www/public/index.php on line 9
+[Tue Mar 21 14:38:08.106310 2023] [php:notice] [pid 29] [client 172.18.0.1:64326] PHP Warning:  require_once(/var/www/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/public/index.php on line 9
+[Tue Mar 21 14:38:08.107452 2023] [php:notice] [pid 29] [client 172.18.0.1:64326] PHP Stack trace:
+[Tue Mar 21 14:38:08.108062 2023] [php:notice] [pid 29] [client 172.18.0.1:64326] PHP   1. {main}() /var/www/public/index.php:0
+[Tue Mar 21 14:38:08.108883 2023] [php:notice] [pid 29] [client 172.18.0.1:64326] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/public/index.php:9\nStack trace:\n#0 {main}\n  thrown in /var/www/public/index.php on line 9
+[Tue Mar 21 14:38:09.038433 2023] [php:notice] [pid 29] [client 172.18.0.1:64326] PHP Warning:  require_once(/var/www/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/public/index.php on line 9
+[Tue Mar 21 14:38:09.039901 2023] [php:notice] [pid 29] [client 172.18.0.1:64326] PHP Stack trace:
+[Tue Mar 21 14:38:09.040499 2023] [php:notice] [pid 29] [client 172.18.0.1:64326] PHP   1. {main}() /var/www/public/index.php:0
+[Tue Mar 21 14:38:09.041200 2023] [php:notice] [pid 29] [client 172.18.0.1:64326] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/public/index.php:9\nStack trace:\n#0 {main}\n  thrown in /var/www/public/index.php on line 9
+[Tue Mar 21 14:38:09.779156 2023] [php:notice] [pid 29] [client 172.18.0.1:64326] PHP Warning:  require_once(/var/www/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/public/index.php on line 9
+[Tue Mar 21 14:38:09.780149 2023] [php:notice] [pid 29] [client 172.18.0.1:64326] PHP Stack trace:
+[Tue Mar 21 14:38:09.781512 2023] [php:notice] [pid 29] [client 172.18.0.1:64326] PHP   1. {main}() /var/www/public/index.php:0
+[Tue Mar 21 14:38:09.782959 2023] [php:notice] [pid 29] [client 172.18.0.1:64326] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/public/index.php:9\nStack trace:\n#0 {main}\n  thrown in /var/www/public/index.php on line 9
+[Tue Mar 21 14:38:10.461480 2023] [php:notice] [pid 29] [client 172.18.0.1:64326] PHP Warning:  require_once(/var/www/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/public/index.php on line 9
+[Tue Mar 21 14:38:10.462789 2023] [php:notice] [pid 29] [client 172.18.0.1:64326] PHP Stack trace:
+[Tue Mar 21 14:38:10.464207 2023] [php:notice] [pid 29] [client 172.18.0.1:64326] PHP   1. {main}() /var/www/public/index.php:0
+[Tue Mar 21 14:38:10.465493 2023] [php:notice] [pid 29] [client 172.18.0.1:64326] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/public/index.php:9\nStack trace:\n#0 {main}\n  thrown in /var/www/public/index.php on line 9
+[Tue Mar 21 14:38:35.054764 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP Warning:  require_once(/var/www/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/public/index.php on line 9
+[Tue Mar 21 14:38:35.055882 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP Stack trace:
+[Tue Mar 21 14:38:35.057514 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP   1. {main}() /var/www/public/index.php:0
+[Tue Mar 21 14:38:35.058507 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/public/index.php:9\nStack trace:\n#0 {main}\n  thrown in /var/www/public/index.php on line 9
+[Tue Mar 21 14:38:35.671787 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP Warning:  require_once(/var/www/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/public/index.php on line 9
+[Tue Mar 21 14:38:35.673990 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP Stack trace:
+[Tue Mar 21 14:38:35.675205 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP   1. {main}() /var/www/public/index.php:0
+[Tue Mar 21 14:38:35.676188 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/public/index.php:9\nStack trace:\n#0 {main}\n  thrown in /var/www/public/index.php on line 9
+[Tue Mar 21 14:38:35.841633 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP Warning:  require_once(/var/www/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/public/index.php on line 9
+[Tue Mar 21 14:38:35.842560 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP Stack trace:
+[Tue Mar 21 14:38:35.843329 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP   1. {main}() /var/www/public/index.php:0
+[Tue Mar 21 14:38:35.845315 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/public/index.php:9\nStack trace:\n#0 {main}\n  thrown in /var/www/public/index.php on line 9
+[Tue Mar 21 14:38:36.009138 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP Warning:  require_once(/var/www/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/public/index.php on line 9
+[Tue Mar 21 14:38:36.011118 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP Stack trace:
+[Tue Mar 21 14:38:36.012034 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP   1. {main}() /var/www/public/index.php:0
+[Tue Mar 21 14:38:36.012873 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/public/index.php:9\nStack trace:\n#0 {main}\n  thrown in /var/www/public/index.php on line 9
+[Tue Mar 21 14:38:36.163377 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP Warning:  require_once(/var/www/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/public/index.php on line 9
+[Tue Mar 21 14:38:36.164652 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP Stack trace:
+[Tue Mar 21 14:38:36.165721 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP   1. {main}() /var/www/public/index.php:0
+[Tue Mar 21 14:38:36.166680 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/public/index.php:9\nStack trace:\n#0 {main}\n  thrown in /var/www/public/index.php on line 9
+[Tue Mar 21 14:38:36.322278 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP Warning:  require_once(/var/www/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/public/index.php on line 9
+[Tue Mar 21 14:38:36.323734 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP Stack trace:
+[Tue Mar 21 14:38:36.325102 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP   1. {main}() /var/www/public/index.php:0
+[Tue Mar 21 14:38:36.326084 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/public/index.php:9\nStack trace:\n#0 {main}\n  thrown in /var/www/public/index.php on line 9
+[Tue Mar 21 14:38:36.476101 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP Warning:  require_once(/var/www/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/public/index.php on line 9
+[Tue Mar 21 14:38:36.476872 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP Stack trace:
+[Tue Mar 21 14:38:36.477510 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP   1. {main}() /var/www/public/index.php:0
+[Tue Mar 21 14:38:36.478158 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/public/index.php:9\nStack trace:\n#0 {main}\n  thrown in /var/www/public/index.php on line 9
+[Tue Mar 21 14:38:36.657225 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP Warning:  require_once(/var/www/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/public/index.php on line 9
+[Tue Mar 21 14:38:36.658106 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP Stack trace:
+[Tue Mar 21 14:38:36.659721 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP   1. {main}() /var/www/public/index.php:0
+[Tue Mar 21 14:38:36.660750 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/public/index.php:9\nStack trace:\n#0 {main}\n  thrown in /var/www/public/index.php on line 9
+[Tue Mar 21 14:38:36.807125 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP Warning:  require_once(/var/www/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/public/index.php on line 9
+[Tue Mar 21 14:38:36.808301 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP Stack trace:
+[Tue Mar 21 14:38:36.810950 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP   1. {main}() /var/www/public/index.php:0
+[Tue Mar 21 14:38:36.812203 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/public/index.php:9\nStack trace:\n#0 {main}\n  thrown in /var/www/public/index.php on line 9
+[Tue Mar 21 14:38:36.977870 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP Warning:  require_once(/var/www/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/public/index.php on line 9
+[Tue Mar 21 14:38:36.978950 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP Stack trace:
+[Tue Mar 21 14:38:36.979777 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP   1. {main}() /var/www/public/index.php:0
+[Tue Mar 21 14:38:36.980664 2023] [php:notice] [pid 30] [client 172.18.0.1:64324] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/public/index.php:9\nStack trace:\n#0 {main}\n  thrown in /var/www/public/index.php on line 9
+[Tue Mar 21 14:43:51.934086 2023] [php:notice] [pid 26] [client 172.18.0.1:55812] PHP Warning:  require_once(/var/www/public/../../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/public/index.php on line 9
+[Tue Mar 21 14:43:51.936396 2023] [php:notice] [pid 26] [client 172.18.0.1:55812] PHP Stack trace:
+[Tue Mar 21 14:43:51.936899 2023] [php:notice] [pid 26] [client 172.18.0.1:55812] PHP   1. {main}() /var/www/public/index.php:0
+[Tue Mar 21 14:43:51.938290 2023] [php:notice] [pid 26] [client 172.18.0.1:55812] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/public/../../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/public/index.php:9\nStack trace:\n#0 {main}\n  thrown in /var/www/public/index.php on line 9
+[Tue Mar 21 14:43:52.811239 2023] [php:notice] [pid 26] [client 172.18.0.1:55812] PHP Warning:  require_once(/var/www/public/../../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/public/index.php on line 9
+[Tue Mar 21 14:43:52.811993 2023] [php:notice] [pid 26] [client 172.18.0.1:55812] PHP Stack trace:
+[Tue Mar 21 14:43:52.812663 2023] [php:notice] [pid 26] [client 172.18.0.1:55812] PHP   1. {main}() /var/www/public/index.php:0
+[Tue Mar 21 14:43:52.813991 2023] [php:notice] [pid 26] [client 172.18.0.1:55812] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/public/../../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/public/index.php:9\nStack trace:\n#0 {main}\n  thrown in /var/www/public/index.php on line 9
+[Tue Mar 21 14:43:59.308879 2023] [php:notice] [pid 27] [client 172.18.0.1:55816] PHP Warning:  require_once(/var/www/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/public/index.php on line 9
+[Tue Mar 21 14:43:59.310628 2023] [php:notice] [pid 27] [client 172.18.0.1:55816] PHP Stack trace:
+[Tue Mar 21 14:43:59.310987 2023] [php:notice] [pid 27] [client 172.18.0.1:55816] PHP   1. {main}() /var/www/public/index.php:0
+[Tue Mar 21 14:43:59.311619 2023] [php:notice] [pid 27] [client 172.18.0.1:55816] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/public/index.php:9\nStack trace:\n#0 {main}\n  thrown in /var/www/public/index.php on line 9
+[Tue Mar 21 14:43:59.756246 2023] [php:notice] [pid 27] [client 172.18.0.1:55816] PHP Warning:  require_once(/var/www/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/public/index.php on line 9
+[Tue Mar 21 14:43:59.757270 2023] [php:notice] [pid 27] [client 172.18.0.1:55816] PHP Stack trace:
+[Tue Mar 21 14:43:59.758622 2023] [php:notice] [pid 27] [client 172.18.0.1:55816] PHP   1. {main}() /var/www/public/index.php:0
+[Tue Mar 21 14:43:59.759257 2023] [php:notice] [pid 27] [client 172.18.0.1:55816] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/public/index.php:9\nStack trace:\n#0 {main}\n  thrown in /var/www/public/index.php on line 9
+[Tue Mar 21 14:43:59.934608 2023] [php:notice] [pid 27] [client 172.18.0.1:55816] PHP Warning:  require_once(/var/www/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/public/index.php on line 9
+[Tue Mar 21 14:43:59.935322 2023] [php:notice] [pid 27] [client 172.18.0.1:55816] PHP Stack trace:
+[Tue Mar 21 14:43:59.935898 2023] [php:notice] [pid 27] [client 172.18.0.1:55816] PHP   1. {main}() /var/www/public/index.php:0
+[Tue Mar 21 14:43:59.936609 2023] [php:notice] [pid 27] [client 172.18.0.1:55816] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/public/index.php:9\nStack trace:\n#0 {main}\n  thrown in /var/www/public/index.php on line 9
+[Tue Mar 21 14:44:03.163744 2023] [php:notice] [pid 27] [client 172.18.0.1:55816] PHP Warning:  require_once(/var/www/public../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/public/index.php on line 9
+[Tue Mar 21 14:44:03.164693 2023] [php:notice] [pid 27] [client 172.18.0.1:55816] PHP Stack trace:
+[Tue Mar 21 14:44:03.165591 2023] [php:notice] [pid 27] [client 172.18.0.1:55816] PHP   1. {main}() /var/www/public/index.php:0
+[Tue Mar 21 14:44:03.166955 2023] [php:notice] [pid 27] [client 172.18.0.1:55816] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/public../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/public/index.php:9\nStack trace:\n#0 {main}\n  thrown in /var/www/public/index.php on line 9
+[Tue Mar 21 14:44:08.956305 2023] [php:notice] [pid 28] [client 172.18.0.1:57320] PHP Warning:  require_once(/var/www/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/public/index.php on line 9
+[Tue Mar 21 14:44:08.956937 2023] [php:notice] [pid 28] [client 172.18.0.1:57320] PHP Stack trace:
+[Tue Mar 21 14:44:08.957656 2023] [php:notice] [pid 28] [client 172.18.0.1:57320] PHP   1. {main}() /var/www/public/index.php:0
+[Tue Mar 21 14:44:08.958472 2023] [php:notice] [pid 28] [client 172.18.0.1:57320] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/public/index.php:9\nStack trace:\n#0 {main}\n  thrown in /var/www/public/index.php on line 9
+[Tue Mar 21 14:44:09.738167 2023] [php:notice] [pid 28] [client 172.18.0.1:57320] PHP Warning:  require_once(/var/www/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/public/index.php on line 9
+[Tue Mar 21 14:44:09.739573 2023] [php:notice] [pid 28] [client 172.18.0.1:57320] PHP Stack trace:
+[Tue Mar 21 14:44:09.741097 2023] [php:notice] [pid 28] [client 172.18.0.1:57320] PHP   1. {main}() /var/www/public/index.php:0
+[Tue Mar 21 14:44:09.741832 2023] [php:notice] [pid 28] [client 172.18.0.1:57320] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/public/index.php:9\nStack trace:\n#0 {main}\n  thrown in /var/www/public/index.php on line 9
+[Tue Mar 21 14:44:09.919106 2023] [php:notice] [pid 28] [client 172.18.0.1:57320] PHP Warning:  require_once(/var/www/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/public/index.php on line 9
+[Tue Mar 21 14:44:09.921621 2023] [php:notice] [pid 28] [client 172.18.0.1:57320] PHP Stack trace:
+[Tue Mar 21 14:44:09.922237 2023] [php:notice] [pid 28] [client 172.18.0.1:57320] PHP   1. {main}() /var/www/public/index.php:0
+[Tue Mar 21 14:44:09.923066 2023] [php:notice] [pid 28] [client 172.18.0.1:57320] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/public/index.php:9\nStack trace:\n#0 {main}\n  thrown in /var/www/public/index.php on line 9

@@ -1,0 +1,64 @@
+[Mon Mar 20 09:55:46.783700 2023] [ssl:warn] [pid 30] AH01906: 172.18.0.6:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 09:55:46.784915 2023] [ssl:warn] [pid 30] AH01909: 172.18.0.6:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Mon Mar 20 09:55:47.269844 2023] [ssl:warn] [pid 30] AH01906: 172.18.0.6:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 09:55:47.272510 2023] [ssl:warn] [pid 30] AH01909: 172.18.0.6:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Mar 20 09:55:47.443787 2023] [mpm_prefork:notice] [pid 30] AH00163: Apache/2.4.54 (Debian) PHP/8.1.8 OpenSSL/1.1.1n configured -- resuming normal operations
+[Mon Mar 20 09:55:47.445464 2023] [core:notice] [pid 30] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Mar 20 09:56:04.620212 2023] [ssl:warn] [pid 29] AH01906: 172.18.0.6:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 09:56:04.624096 2023] [ssl:warn] [pid 29] AH01909: 172.18.0.6:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Mon Mar 20 09:56:04.713793 2023] [ssl:warn] [pid 29] AH01906: 172.18.0.6:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 09:56:04.714493 2023] [ssl:warn] [pid 29] AH01909: 172.18.0.6:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Mar 20 09:56:04.724168 2023] [mpm_prefork:notice] [pid 29] AH00163: Apache/2.4.54 (Debian) PHP/8.1.8 OpenSSL/1.1.1n configured -- resuming normal operations
+[Mon Mar 20 09:56:04.725050 2023] [core:notice] [pid 29] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Mar 20 09:56:40.052228 2023] [autoindex:error] [pid 40] [client 172.18.0.1:55874] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Mon Mar 20 10:14:24.899866 2023] [ssl:warn] [pid 13] AH01906: 172.18.0.5:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 10:14:24.902543 2023] [ssl:warn] [pid 13] AH01909: 172.18.0.5:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.5. Set the 'ServerName' directive globally to suppress this message
+[Mon Mar 20 10:14:25.210114 2023] [ssl:warn] [pid 13] AH01906: 172.18.0.5:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 10:14:25.212731 2023] [ssl:warn] [pid 13] AH01909: 172.18.0.5:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Mar 20 10:14:25.224955 2023] [mpm_prefork:notice] [pid 13] AH00163: Apache/2.4.54 (Debian) PHP/8.1.8 OpenSSL/1.1.1n configured -- resuming normal operations
+[Mon Mar 20 10:14:25.226392 2023] [core:notice] [pid 13] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Mar 20 10:20:02.619822 2023] [ssl:warn] [pid 29] AH01906: 172.18.0.6:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 10:20:02.620462 2023] [ssl:warn] [pid 29] AH01909: 172.18.0.6:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Mon Mar 20 10:20:02.677207 2023] [ssl:warn] [pid 29] AH01906: 172.18.0.6:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 10:20:02.678147 2023] [ssl:warn] [pid 29] AH01909: 172.18.0.6:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Mar 20 10:20:02.686101 2023] [mpm_prefork:notice] [pid 29] AH00163: Apache/2.4.54 (Debian) PHP/8.1.8 OpenSSL/1.1.1n configured -- resuming normal operations
+[Mon Mar 20 10:20:02.686681 2023] [core:notice] [pid 29] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Mar 20 10:23:18.009634 2023] [ssl:warn] [pid 13] AH01906: 172.18.0.6:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 10:23:18.011476 2023] [ssl:warn] [pid 13] AH01909: 172.18.0.6:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Mon Mar 20 10:23:18.137593 2023] [ssl:warn] [pid 13] AH01906: 172.18.0.6:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 10:23:18.138300 2023] [ssl:warn] [pid 13] AH01909: 172.18.0.6:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Mar 20 10:23:18.147081 2023] [mpm_prefork:notice] [pid 13] AH00163: Apache/2.4.54 (Debian) PHP/8.1.8 OpenSSL/1.1.1n configured -- resuming normal operations
+[Mon Mar 20 10:23:18.148298 2023] [core:notice] [pid 13] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Mar 20 10:27:40.194340 2023] [ssl:warn] [pid 29] AH01906: 172.18.0.5:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 10:27:40.195168 2023] [ssl:warn] [pid 29] AH01909: 172.18.0.5:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.5. Set the 'ServerName' directive globally to suppress this message
+[Mon Mar 20 10:27:40.257600 2023] [ssl:warn] [pid 29] AH01906: 172.18.0.5:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 10:27:40.258429 2023] [ssl:warn] [pid 29] AH01909: 172.18.0.5:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Mar 20 10:27:40.264836 2023] [mpm_prefork:notice] [pid 29] AH00163: Apache/2.4.54 (Debian) PHP/8.1.8 OpenSSL/1.1.1n configured -- resuming normal operations
+[Mon Mar 20 10:27:40.265979 2023] [core:notice] [pid 29] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Mar 20 10:30:15.201802 2023] [ssl:warn] [pid 30] AH01906: 172.18.0.6:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 10:30:15.202838 2023] [ssl:warn] [pid 30] AH01909: 172.18.0.6:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Mon Mar 20 10:30:15.258306 2023] [ssl:warn] [pid 30] AH01906: 172.18.0.6:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 10:30:15.258989 2023] [ssl:warn] [pid 30] AH01909: 172.18.0.6:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Mar 20 10:30:15.265105 2023] [mpm_prefork:notice] [pid 30] AH00163: Apache/2.4.54 (Debian) PHP/8.1.8 OpenSSL/1.1.1n configured -- resuming normal operations
+[Mon Mar 20 10:30:15.265800 2023] [core:notice] [pid 30] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Mar 20 10:31:22.466627 2023] [ssl:warn] [pid 29] AH01906: 172.18.0.6:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 10:31:22.467121 2023] [ssl:warn] [pid 29] AH01909: 172.18.0.6:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Mon Mar 20 10:31:22.518317 2023] [ssl:warn] [pid 29] AH01906: 172.18.0.6:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 20 10:31:22.519868 2023] [ssl:warn] [pid 29] AH01909: 172.18.0.6:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Mar 20 10:31:22.529648 2023] [mpm_prefork:notice] [pid 29] AH00163: Apache/2.4.54 (Debian) PHP/8.1.8 OpenSSL/1.1.1n configured -- resuming normal operations
+[Mon Mar 20 10:31:22.530328 2023] [core:notice] [pid 29] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Mar 21 14:17:00.705235 2023] [ssl:warn] [pid 14] AH01906: 172.18.0.5:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Mar 21 14:17:00.706154 2023] [ssl:warn] [pid 14] AH01909: 172.18.0.5:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.5. Set the 'ServerName' directive globally to suppress this message
+[Tue Mar 21 14:17:01.517405 2023] [ssl:warn] [pid 14] AH01906: 172.18.0.5:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Mar 21 14:17:01.519644 2023] [ssl:warn] [pid 14] AH01909: 172.18.0.5:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 21 14:17:01.534087 2023] [mpm_prefork:notice] [pid 14] AH00163: Apache/2.4.54 (Debian) PHP/8.1.8 OpenSSL/1.1.1n configured -- resuming normal operations
+[Tue Mar 21 14:17:01.534860 2023] [core:notice] [pid 14] AH00094: Command line: 'apache2 -D FOREGROUND'
